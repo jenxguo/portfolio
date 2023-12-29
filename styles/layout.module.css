@@ -1,0 +1,31 @@
+.container {
+    padding: 0 5rem;
+    margin: 3rem auto 6rem;
+  }
+
+.header {
+  width: 25rem;
+  height: 20vh;
+  position:fixed;
+  z-index:100;
+}
+
+.links {
+  width: 8rem;
+}
+  
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
