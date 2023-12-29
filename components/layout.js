@@ -7,7 +7,7 @@ import Link from 'next/link';
 const name = 'Jenn Guo';
 export const siteTitle = 'Jenn Guo';
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, title }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -49,31 +49,18 @@ export default function Layout({ children, home }) {
         
         
         ) : (
-          <>
-            <Link href="/">
-              <Image
-                priority
-                src="/images/profile.jpg"
-                className={utilStyles.borderCircle}
-                height={108}
-                width={108}
-                alt=""
-              />
-            </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
-                {name}
-              </Link>
-            </h2>
-          </>
+          <div className={styles.col}>
+            <div className={styles.row}>
+                <h1 className={utilStyles.heading2Xl}>{title}</h1>
+
+            </div>
+            <div className={styles.backToHome}>
+            <Link href="/#works">← Back to home</Link>
+          </div>
+        </div>
         )}
       </header>
       <main>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/#works">← Back to home</Link>
-        </div>
-      )}
     </div>
   );
 }

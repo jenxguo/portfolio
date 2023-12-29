@@ -38,5 +38,12 @@ section {
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 0.8rem;
+}
+
+li {
+  margin: 0 0 1.25rem;
 }

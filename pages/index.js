@@ -118,20 +118,27 @@ export default function Home() {
       </section>
 
       <section id="works" className={utilStyles.headingMd}>
-        <h1>works</h1>
         <div className={utilStyles.content}>
         <TypeIt options={{speed: 5, waitUntilVisible: true}}>Here's some stuff I'm proud of.</TypeIt>
         </div>
 
-        <div className={utilStyles.row}>
-          <div>
-            <h4>Action</h4>
+        <div className={utilStyles.container}>
+          <div className={utilStyles.box}>
+            <h4>Projects</h4>
             <ul>
-              <li><a href="/posts/first-post">project 1</a></li>
+              <li><a href="/projects/flier">Are You a Normal Flier?</a></li>
+              <li><a href="/projects/crimson-cafes">Crimson Cafes</a></li>
+              <li><a href="/projects/bussio-go">Bussio Go</a></li>
+              <li><a href="/projects/hourglass">Hourglass</a></li>
+              <li><a href="/projects/dscvr">DSCVR</a></li>
+              <li><a href="/projects/harvard-house-quiz">Harvard House Quiz</a></li>
+              <li><a href="/projects/studibuddi">StudiBuddi</a></li>
+              <li><a href="/projects/block-party">Block Party</a></li>
+              <li><a href="/projects/jenca">Jenca</a></li>
             </ul>
           </div>
-          <div>
-            <h4>Thought</h4>
+          <div className={utilStyles.box}>
+            <h4>Thoughts</h4>
             <ul>
             <li><a href="/posts/first-post">journal entry 1</a></li>
             </ul>

@@ -1,7 +1,4 @@
-import Image from 'next/image';
 import styles from '../styles/resume.module.css';
-import utilStyles from '../styles/utils.module.css';
-import Link from 'next/link';
 
 export default function ResumeBlock({ content }) {
   return (
