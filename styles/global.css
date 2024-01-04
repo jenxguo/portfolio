@@ -42,6 +42,12 @@ ul {
   padding: 0;
   margin: 0;
 }
+
+@media (max-width: 2700px) {
+  section {
+    padding-top: 11%;
+  }
+}
  
 @media (max-width: 1000px) {
   section {

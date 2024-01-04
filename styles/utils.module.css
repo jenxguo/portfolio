@@ -74,7 +74,7 @@
 }
 
 .blog {
-  padding: 10rem 14rem 0 14rem;
+  padding: 10rem 14rem 5rem 14rem;
   line-height: 2;
 }
 
@@ -172,7 +172,7 @@
   }
 
   .blog {
-    padding: 10rem 15px 0 15px;
+    padding: 10rem 15px 15px 15px;
     line-height: 2;
   }
 }

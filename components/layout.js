@@ -47,7 +47,7 @@ export default function Layout({ children, home, title }) {
                 </div>
 
             </div>
-            <h3 className={`${utilStyles.headingMd} ${styles.description}`}>[freedom of mind]</h3>
+            {/* <h3 className={`${utilStyles.headingMd} ${styles.description}`}>[freedom of mind]</h3> */}
         </div>
         
         
