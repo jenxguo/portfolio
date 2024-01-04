@@ -2,7 +2,7 @@ import styles from '../styles/resume.module.css';
 
 export default function ResumeBlock({ content }) {
   return (
-    <div className="card" style={{width: '70%', borderColor: 'black'}}>
+    <div className="card" style={{width: '95%', borderColor: 'black'}}>
         <div className="card-body">
                 {content.team ? <h5 className="card-title">{content.companyName}</h5> : <a  target='_blank' href={content.link}><h5 className="card-title">{content.companyName}</h5></a>}
             <div className={styles.row}>

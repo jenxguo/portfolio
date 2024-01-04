@@ -11,7 +11,10 @@ export default function Layout({ children, home, title }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+        <link rel="manifest" href="/site.webmanifest"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet"/>
@@ -44,16 +47,13 @@ export default function Layout({ children, home, title }) {
                 </div>
 
             </div>
-            <h3 className={utilStyles.headingMd}>[freedom of mind]</h3>
+            <h3 className={`${utilStyles.headingMd} ${styles.description}`}>[freedom of mind]</h3>
         </div>
         
         
         ) : (
           <div className={styles.col}>
-            <div className={styles.row}>
                 <h1 className={utilStyles.heading2Xl}>{title}</h1>
-
-            </div>
             <div className={styles.backToHome}>
             <Link href="/#works">← Back to home</Link>
           </div>

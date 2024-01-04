@@ -1,13 +1,18 @@
 .container {
-    padding: 0 5rem;
-    margin: 3rem auto 6rem;
-  }
+  padding: 0 5rem;
+  margin: 3rem 0 0 0rem;
+  display: flex;
+  justify-content: center;
+}
 
 .header {
-  width: 25rem;
-  height: 20vh;
+  width: 23vw;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  /* max-height: 20vh; */
   position:fixed;
   z-index:100;
+  text-align: center;
 }
 
 .links {
@@ -28,4 +33,22 @@
 
 .backToHome {
   color: blue;
+}
+
+@media only screen and (max-device-width: 500px) {
+  .container {
+    padding: 10px 0 0 0;
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header {
+    width: 80%;
+    /* position:absolute; */
+  }
+
+  .description {
+    display: none;
+  }
 }
