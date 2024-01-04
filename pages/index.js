@@ -94,6 +94,7 @@ export default function Home() {
               <li className={utilStyles.project}><a href="/projects/studibuddi">StudiBuddi</a></li>
               <li className={utilStyles.project}><a href="/projects/block-party">Block Party</a></li>
               <li className={utilStyles.project}><a href="/projects/jenca">Jenca</a></li>
+              <li className={utilStyles.project}><em>This</em>-- using Next.js, Bootstrap, TypeIt, GSAP. </li>
             </ul>
           </div>
           {/* <div className={utilStyles.box}>
