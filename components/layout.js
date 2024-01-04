@@ -60,7 +60,7 @@ export default function Layout({ children, home, title }) {
         </div>
         )}
       </header>
-      <main>{children}</main>
+      <main className={home ? styles.home : ''}>{children}</main>
     </div>
   );
 }

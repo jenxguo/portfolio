@@ -31,13 +31,9 @@ export default function Home() {
         <div className={utilStyles.content}>
           <TypeIt options={{speed: 5, waitUntilVisible: true}}>Hi, I'm Jenn. 
           <br/>
-          As of spring 2024, I am embarking on semester 8 out of 8
+          As of spring 2024, I am embarking on semester 8 out of 8 of my <a target="_blank" href="https://seas.harvard.edu/computer-science">Computer Science</a> + <a target="_blank" href="https://mbb.harvard.edu/"> Mind Brain Behavior </a> degree at Harvard.
           <br/>
-          of my <a target="_blank" href="https://seas.harvard.edu/computer-science">Computer Science</a> + <a target="_blank" href="https://mbb.harvard.edu/"> Mind Brain Behavior </a> degree at Harvard.
-          <br/>
-          You can find me savoring my last semester in my beloved <a target="_blank" href="https://www.forbes.com/sites/carltonreid/2023/04/17/walkable-neighborhoods-are-happy-neighborhoods-finds-study/?sh=39b8bdd73f3a">walkable community</a> of Cambridge
-          <br/>
-          with frequent sunset strolls down to the Charles or trips to local bouldering areas.
+          You can find me savoring my last semester in my beloved <a target="_blank" href="https://www.forbes.com/sites/carltonreid/2023/04/17/walkable-neighborhoods-are-happy-neighborhoods-finds-study/?sh=39b8bdd73f3a">walkable community</a> of Cambridge with frequent sunset strolls down to the Charles or trips to local bouldering areas.
           <br/>
           If so, don't be afraid to say hi.</TypeIt>
         </div>

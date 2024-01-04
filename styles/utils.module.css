@@ -99,8 +99,8 @@
 }
 
 .thin {
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 15vw;
+  padding-right: 15vw;
 }
 
 .medThin {
@@ -115,7 +115,6 @@
 }
 
 .container {
-  /* padding: 0 10rem 0 10rem; */
   margin-top: 2rem;
   display: flex;
   flex-direction: row;

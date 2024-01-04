@@ -35,6 +35,17 @@
   color: blue;
 }
 
+
+@media (min-width: 1500px) {
+  .home {
+    background-image: url('../public/images/bckg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
 @media (max-width: 1500px){
   .header {
     width: 40%;
