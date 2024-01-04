@@ -43,11 +43,24 @@ ul {
   margin: 0;
 }
 
-@media only screen and (max-device-width: 500px) {
+@media (max-width: 1000px) {
+  section {
+    padding-top: 50%;
+    height: 150vh;
+  }
+}
+
+
+@media (max-width: 500px) {
   section {
     padding-top: 40%;
-    /* scroll-snap-align: none;
-    scroll-snap-stop: none; */
     height: 150vh;
+  }
+}
+
+@media (max-width: 400px) {
+  section {
+    padding-top: 40%;
+    height: 200vh;
   }
 }
